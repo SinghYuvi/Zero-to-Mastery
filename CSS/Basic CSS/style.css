@@ -1,0 +1,17 @@
+body {
+    background-color: burlywood;
+}
+p {
+    color: green;
+    background-color:yellowgreen;
+}
+.boxmodel{
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0px 20px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
