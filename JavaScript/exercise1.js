@@ -13,7 +13,7 @@ var test10 = false - true;
 var test11 = 3 - 4;
 var test12 = "Bob" - "bill";
 
-console.log(`Evaluation is :${test12}`);       
+console.log(`Evaluation is :${test4}`);       
 //Evaluate the below comparisons:
 var test13 = 5 >= 1;
 var test14 = 0 === 1;
