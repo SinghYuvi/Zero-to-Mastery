@@ -11,11 +11,11 @@ array.sort();
 array.push("Kiwi");
 
 // 4. Remove "Apples" from the array.
-array.shift();     //We can also use array.splice(0, 1);
+array.splice(0, 1);
 
 // 5. Sort the array in reverse order. 
 array.reverse();
-//console.log(array);
+console.log(array);
 
 
 
