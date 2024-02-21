@@ -10,7 +10,7 @@ function experiencePoints() {
     }
 }
 //Solutions - Ternary Operator
-var experiencePoints = winBattle(true) ? 10 : 1;
+var expPoints = winBattle(true) ? 10 : 1;
 
 //Using this function, answer the questions below:
 function moveCommand(direction) {
@@ -49,3 +49,22 @@ undefined
 undefined
 
 //BONUS: practice makes perfect. Go and write your own switch function. It takes time to get used to the syntax!
+
+
+let exp = 100;
+var wizardLevel = false; 
+
+if(exp > 90){
+    var wizardLevel = true;
+    console.log('Inside if only[No Function]', wizardLevel);
+    }
+    console.log('Outside if only[No Function', wizardLevel);
+
+function testScope(){
+    if(exp > 90){
+        var wizardLevel = true;
+        console.log('Inside [With Function]', wizardLevel);
+        }
+        console.log('Outside [With Function', wizardLevel);
+    
+}
