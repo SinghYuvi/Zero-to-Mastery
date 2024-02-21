@@ -6,46 +6,41 @@ function q1() {
     if(a > 1) {
         a = 3;
     }
-    alert(a); //3
+    alert(a);
 }
 
 //#2
-// you must first run q2() in your console to add the new value. then run q22()
 var a = 0;
 function q2() {
     a = 5;
 }
 
 function q22() {
-    alert(a); //5
+    alert(a);
 }
 
-// run in the console:
-// q22() -- 0
-// q2() -- undefined
-// q22() -- 5
 
 //#3
 function q3() {
     window.a = "hello";
 }
 
-// you must first run q3() in your console to add the a property to the window. then run q32()
+
 function q32() {
-    alert(a); //"hello"
+    alert(a);
 }
 
 //#4
 var a = 1;
 function q4() {
     var a = "test";
-    alert(a); //"test"
+    alert(a);
 }
 
-//#5 with var keyword, if statements do not create a new scope
+//#5
 var a = 2;
 if (true) {
     var a = 5;
-    alert(a); // 5
+    alert(a);
 }
-alert(a); // 5
+alert(a);
